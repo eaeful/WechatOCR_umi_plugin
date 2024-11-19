@@ -27,12 +27,12 @@ WeChatOCR 是一款专为 [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) 设�
 
 WeChatOCR 插件提供以下两种版本，供用户选择：
 
-### 1. 微信本地 OCR 模型版本
+### 1. 微信本地 OCR 模型版本（WechatOCR_umi_plugin_zidai ocr）
 
 - 插件内置了关键文件：`wechatocr.exe`、`wechat` 文件夹、`mmmojo.dll` 和 `mmmojo_64.dll`等。
 - **无需安装微信，也无需运行微信**，即可直接调用微信 OCR 功能完成文字识别。
 
-### 2. 微信 OCR 用户自定义路径版本
+### 2. 微信 OCR 用户自定义路径版本（WechatOCR_umi_plugin_zixingshezhi lujing）
 
 - 用户需在 Umi-OCR 的全局设置中，手动填写以下路径：
   - 电脑中的微信安装目录的完整路径。
