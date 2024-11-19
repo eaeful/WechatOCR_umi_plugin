@@ -7,7 +7,7 @@ WeChatOCR 是一款专为 [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) 设�
 
 ## 插件介绍
 
-通过将 WeChatOCR 插件加载到 Umi-OCR，可以直接使用微信 OCR 的强大功能来识别文字。
+通过将 WeChatOCR 插件加载到 Umi-OCR，可以直接使用微信 离线OCR 的强大功能来识别文字。
 
 ### 与其他插件（如 PaddleOCR）的对比优势
 
@@ -35,14 +35,13 @@ WeChatOCR 插件提供以下两种版本，供用户选择：
 ### 2. 微信 OCR 用户自定义路径版本
 
 - 用户需在 Umi-OCR 的全局设置中，手动填写以下路径：
-  - 微信安装目录的完整路径。
-  - `WeChatOCR.exe` 文件路径。
+  - 电脑中的微信安装目录的完整路径。
+  - 电脑中的`WeChatOCR.exe` 文件路径。
 
   **要使用此版本，您需要准备以下内容：**
 
   - **`wechatocr.exe`**：例如  
-    `C:\Users\![18-230537](https://github.com/user-attachments/assets/fd707587-7bd2-4f09-87b6-8c46e7106d5d)
-yourname\AppData\Roaming\Tencent\WeChat\XPlugin\Plugins\WeChatOCR\7061\extracted\WeChatOCR.exe`
+    `C:\Users\Administrator\AppData\Roaming\Tencent\WeChat\XPlugin\Plugins\WeChatOCR\7079\extracted\WeChatOCR.exe`
   - **`wechat` 文件夹**：例如  
     `C:\Program Files (x86)\Tencent\WeChat\[3.9.8.25]`
 
@@ -74,6 +73,7 @@ yourname\AppData\Roaming\Tencent\WeChat\XPlugin\Plugins\WeChatOCR\7061\extracted
 ## 注意事项
 
 - 两个版本在首次加载时可能会有轻微的延迟，但后续识别速度无差异。
+- 我只在windows 10 运行过这个插件，其他系统版本不清楚，请自行测试
 - 使用本地 OCR 模型版本时，请确保遵循相关版权协议和 LICENSE 要求。
 
 ---
