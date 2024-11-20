@@ -74,7 +74,7 @@ WeChatOCR 插件提供以下两种版本，供用户选择：
 
 ## 使用说明
 
-1. 下载并解压插件包，放入 Umi-OCR/UmiOCR-data/plugins 文件夹中。。
+1. 访问https://github.com/eaeful/WechatOCR_umi_plugin/releases，下载对应的版本并解压插件包，放入 Umi-OCR/UmiOCR-data/plugins 文件夹中。
 2. 打开 Umi-OCR，并加载 WeChatOCR 插件。
 3. （可选）根据版本选择是否配置路径：
    - **本地 OCR 模型版本**：无需额外配置，直接使用。
@@ -90,7 +90,10 @@ WeChatOCR 插件提供以下两种版本，供用户选择：
 - 使用本地 OCR 模型版本时，请确保遵循相关版权协议和 LICENSE 要求。
 
 ---
-
+## 可能出现的问题和解决方法
+- 1：如果在使用本插件的"微信OCR用户自定义路径版本"，当软件正确设置路径后，仍然提示找不到路径。可以通过任务管理器先把umi-OCR.exe软件进行结束进程，然后以管理员身份重新打开此软件。
+- 2：如果遇到前面识别文字，能够正常运行，但是后面识别就一直没有响应。可以通过任务管理器把软件umi-OCR.exe跟Wechatocr.exe的进程进行结束，然后重新打开软件。
+---
 ## 感谢
 - https://github.com/kanadeblisst00/wechat_ocr
 - https://github.com/EEEEhex/QQImpl
