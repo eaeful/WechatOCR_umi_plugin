@@ -1,0 +1,6 @@
+key,en_US
+微信OCR(自带模型，不填则用插件自带或填写自己的路径),WeChat OCR (Use built-in model if not specified or provide your own path)
+WeChatOCR.exe 文件路径,Path to WeChatOCR.exe file
+WeChatOCR.exe 的文件路径。如果您不填写，将使用插件自带的 WeChatOCR.exe；如果您填写，则优先使用您指定的路径。,"The file path of WeChatOCR.exe. If you do not fill it in, the built-in WeChatOCR.exe of the plugin will be used; if you fill it in, the path you specify will be prioritized"
+微信的完整安装路径,Complete installation path of WeChat
+微信的完整安装路径，例如：C:\\Program Files (x86)\\Tencent\\WeChat\\[3.9.8.25]。如果您不填写，将使用插件自带的默认路径；如果您填写，则优先使用您指定的路径。,"The complete installation path of WeChat, for example: C:\\Program Files (x86)\\Tencent\\WeChat\\[3.9.8.25]. If you do not fill it in, the default path of the plugin will be used; if you fill it in, the path you specify will be prioritized"
