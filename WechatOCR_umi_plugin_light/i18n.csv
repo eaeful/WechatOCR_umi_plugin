@@ -1,6 +1,0 @@
-key,en_US
-微信OCR(不自带模型，请填写自己的路径),WeChat OCR (Please provide your own path as no built-in model is included)
-WeChatOCR.exe 文件路径,Path to WeChatOCR.exe file
-WeChatOCR.exe 的文件路径。,File path of WeChatOCR.exe.
-微信的完整安装路径,Complete installation path of WeChat
-微信的完整安装路径，例如：C:\\Program Files (x86)\\Tencent\\WeChat\\[3.9.8.25]。,"Complete installation path of WeChat, for example: C:\\Program Files (x86)\\Tencent\\WeChat\\[3.9.8.25]."
